@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device, initial-scale=1"/> 
+<link rel="stylesheet" href="bootstrap.css" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="bootstrap.js"></script>
+<style>
+	/* .jumbotron{padding:10px;} */
+</style>
+</head>
+<body>
+<div class="container">
+	<!-- 
+		.jumbotron : 회색배경에 패딩이 설정, 테두리 둥글게 스타일이 적용됨
+	 -->
+	 <div class="jumbotron">
+	 	<h1>Jumbotron을 이용한 스타일</h1>
+	 </div>
+	 <p class="jumbotron">세계적 투자가 짐 로저스 로저스홀딩스 회장이 최근 출범한 일본 스가 요시히데(菅義偉) 정권에 대해 "일본의 쇠퇴를 가져오는 건 필연적"이라고 평가해 주목된다.
+로저스 회장은 9일자 일본 주간아사히 최신호(6일 발매) 기고에서 "난 아베 신조(安倍晋三) 전 일본 총리가 한시라도 빨리 사임해야 한다고 말해왔다"며 "아베의 행동원리는 자신과 자신의 체제를 유지하는 데에만 있었고, 그에 따른 부채는 일본의 젊은이들에게 떠넘겼기 때문"이라고 밝혔다.
+로저스 회장은 "아베의 후계자인 스가 총리도 '아베노믹스'(아베의 경제정책)란 잘못된 정책을 승계하겠다고 해 문제"라며 "일본에 이처럼 불행한 일은 없다"고 주장하기도 했다.
+일본 집권 자민당은 지난달 건강상 이유(궤양성 대장염 재발)로 총리직을 사임한 아베 전 총리의 후임으로 스가 총리를 선출했다. 아베 정권 8년 간 정부 대변인이자 총리 비서실장 역할을 해온 스가 총리는 '아베 정권 계승'을 국정 기치로 내걸고 있는 상황이다.</p>
+	 <!-- 
+	 	.table : 전체폭을 100%로 설정하고 상위 보더가 표시된 표를 설정
+	 		.table-striped : 줄단위 배경색설정
+	 		.table-bordered: 표에 선만 표시
+	 		.table-hover : 마우스오버 아웃시 배경색 변경
+	 		.table-dark : 표의 배경색을 어두운색으로 
+	  -->
+	 <table class="table table-dark table-hover">
+	 	<thead>
+	 	<tr>
+	 		<td>번호</td>
+	 		<td>이름</td>
+	 		<td>연락처</td>
+	 	</tr>
+	 	</thead>
+	 	<tbody>
+	 	<tr>
+	 		<td>100</td>
+	 		<td>홍길동1</td>
+	 		<td>010-1234-5678</td>
+	 	</tr>
+	 	<tr>
+	 		<td>200</td>
+	 		<td>홍길동2</td>
+	 		<td>010-1234-5678</td>
+	 	</tr>
+	 	<tr>
+	 		<td>300</td>
+	 		<td>홍길동3</td>
+	 		<td>010-1234-5678</td>
+	 	</tr>
+	 	<tr>
+	 		<td>400</td>
+	 		<td>홍길동4</td>
+	 		<td>010-1234-5678</td>
+	 	</tr>
+	 	<tr>
+	 		<td>500</td>
+	 		<td>홍길동5</td>
+	 		<td>010-1234-5678</td>
+	 	</tr>
+	 	<tr>
+	 		<td>600</td>
+	 		<td>홍길동6</td>
+	 		<td>010-1234-5678</td>
+	 	</tr>	
+	 	</tbody>
+	 	<tfoot>
+	 	<tr>
+	 		<td colspan="3">문의사항은 02-1234-7777로 연락바랍니다.</td>
+	 	</tr>
+	 	</tfoot>
+	 </table>	 
+	 <!--
+	 	  색상명
+	 	 *-primary : blue 
+	 	 *-success : green
+	 	 *-danger : red
+	 	 *-info : blue+green
+	 	 *-warning : yellow
+	 	 *-active : gray
+	 	 *-secondary : gray
+	   -->
+	 <table class="table">
+	 	<thead>
+	 	<tr class="table-primary">
+	 		<td>번호</td>
+	 		<td>이름</td>
+	 		<td>연락처 primary</td>
+	 	</tr>
+	 	</thead>
+	 	<tbody>
+	 	<tr class="table-success">
+	 		<td>100</td>
+	 		<td>홍길동1</td>
+	 		<td>010-1234-5678 success</td>
+	 	</tr>
+	 	<tr class="table-danger">
+	 		<td>200</td>
+	 		<td>홍길동2</td>
+	 		<td>010-1234-5678 danger</td>
+	 	</tr>
+	 	<tr class="table-info">
+	 		<td>300</td>
+	 		<td>홍길동3</td>
+	 		<td>010-1234-5678 info</td>
+	 	</tr>
+	 	<tr class="table-warning">
+	 		<td>400</td>
+	 		<td>홍길동4</td>
+	 		<td>010-1234-5678 warning</td>
+	 	</tr>
+	 	<tr class="table-active">
+	 		<td>500</td>
+	 		<td>홍길동5</td>
+	 		<td>010-1234-5678 active</td>
+	 	</tr>
+	 	<tr class="table-secondary">
+	 		<td>600</td>
+	 		<td>홍길동6</td>
+	 		<td>010-1234-5678 secondary</td>
+	 	</tr>	
+	 	</tbody>
+	 	<tfoot>
+	 	<tr>
+	 		<td colspan="3">문의사항은 02-1234-7777로 연락바랍니다.</td>
+	 	</tr>
+	 	</tfoot>
+	 </table>
+</div>
+</body>
+</html>
